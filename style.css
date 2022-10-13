@@ -10,16 +10,14 @@
 }
 
 :root {
-        background-image: url('bgsite.jpg');
+    background-image: url('bgsite.jpg');
     background-size: cover;
 }
 
 body{
     display: flex;
     justify-content: center;
-    align-items: center;
-    min-height: 30vh;
-    background: var(--clr);
+    position: relative;
 }
 
 header{
@@ -30,9 +28,9 @@ header{
 
 .logo{
     position: absolute;
-    width: 200px;
-    height: 200px;
-    top: 3.5%;
+    width: 203px;
+    height: 195px;
+    top: 1.5%;
     background: transparent;
     display: flex;
     color: white;
@@ -150,6 +148,90 @@ header{
 .navigation ul li:nth-child(6).active ~ .indicator {
     transform: translateX(calc(60px * 5));
 }
+
+
+.container-main{
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 22em;
+}
+
+.container-logotipo{
+    text-align: center;
+    border: 5px solid yellow;
+}
+
+.container-menu{
+    border: 5px solid white;
+    width: 100%;
+
+}
+
+.container-section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #3a60ab;
+    border-radius: 10px;
+}
+
+.live{
+    width: 50%;
+    align-items: center;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.programacao {
+    width: 50%;
+    margin: 20px;
+}
+
+.container-banner{
+    text-align: center;
+    margin: 20px auto; 
+}
+
+.container-instagram{
+    margin: 20px;
+}
+
+.container-main .rodape{
+    border: 2px solid rebeccapurple;
+    text-align: center;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 414px) {
+    .container-section{
+        display: block;
+        height: auto;
+        margin: 0;
+    }
+    
+    .live{
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    .programacao{
+        width: 100%;
+        height: auto;
+        margin: 0;
+        text-align: center;
+    }
+    .container-banner img{
+        width: 393px;
+        margin: 0;
+        text-align: center;
+
+    }
+}
+
+
+
+
 
 @media screen and (max-width: 2560px) {
     .navigation{
