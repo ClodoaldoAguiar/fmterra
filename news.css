@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:100,200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+.direito{
+    background-color: blueviolet;
+    width: 50%;
+    margin: 5px;
+}
+
+.direito-news img{
+    width: 500px;
+}
+
+.direito-news{
+    display: flex;
+}
+
+h2{
+    margin: 20px;
+    color: rgb(255, 255, 255);
+}
+
+p{
+    color: white;
+}
+
+.esquerdo{
+    background-color: blueviolet;
+    border: solid green;
+    margin: 5px;
+}
+
+.esquerdo img{
+    width: 350px;
+}
+
+.titulo{
+    align-items: center;
+    font-size: 28px;
+    border: solid rgb(226, 43, 205);
+    background-color: white;
+    text-align: center;
+}
+
+section{
+    display: flex;
+}
+
+button{
+    background-color: white;
+    height: 30px;
+    width: 80px;
+    border: none;
+}
+
+.barra-legenda {
+    display: flex;
+}
+
+.barra-legenda p {
+    position: relative;
+    top: -10px;
+    color: white;
+    margin: 10px;
+}
+
+
+
+@media only screen and (min-width:390px) {
+    section {
+     display: flex;
+    }
+    .direito{
+        background-color: blueviolet;
+        width: 50%;
+        height: auto;
+        margin: 5px;
+    }
+    .esquerdo{
+        background-color: blueviolet;
+        width: 50%;
+        height: auto;
+        margin: 5px;
+    }
+    .esquerdo img{
+        width: 50%;
+    }
+    .direito-news img{
+        margin-top: 0;
+        width: 150px;
+        height: 100px;
+    }
+    
+    h2{
+        margin: 5px;
+        color: rgb(255, 255, 255);
+    }
+
+  }
+

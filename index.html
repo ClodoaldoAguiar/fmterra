@@ -4,6 +4,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Fmterra</title>
+	<link rel="stylesheet" href="/news.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +20,7 @@
 	
 		<link rel="stylesheet" href="card-news.css">
 
-		
+		<link rel="stylesheet" href="formstyle.css" />	
 
 </head>
 <body>
@@ -141,86 +143,65 @@ src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
 			
 			<!--CORPO NEWS-->
 
-				<div class="slide-container swiper">
-					<div class="slide-content">
-						<div class="card-wrapper swiper-wrapper">
-							
-							<div class="card swiper-slide">
-								<div class="image-content">
-									<!-- <span class="overlay"></span> -->
-			
-									<div class="card-image">
-										<img src="images/profile1.jpg" alt="" class="card-img">
-									</div>
-								</div>
-			
-								<div class="card-content">
-									<h2 class="name">Lady Gaga revela clipe de "look what i found"</h2>
-									<p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-									<button class="button">Veja mais</button>
-								</div>
-			
-							</div>
-							
-							<div class="card swiper-slide">
-								<div class="image-content">
-									<!-- <span class="overlay"></span> -->
-			
-									<div class="card-image">
-										<img src="images/profile2.jpg" alt="" class="card-img">
-									</div>
-								</div>
-			
-								<div class="card-content">
-									<h2 class="name">Lady Gaga revela clipe de "look what i found"</h2>
-									<p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-									<button class="button">Veja mais</button>
-								</div>
-			
-							</div>
-							
-							<div class="card swiper-slide">
-								<div class="image-content">
-									<!-- <span class="overlay"></span> -->
-			
-									<div class="card-image">
-										<img src="images/profile3.jpg" alt="" class="card-img">
-									</div>
-								</div>
-			
-								<div class="card-content">
-									<h2 class="name">Lady Gaga revela clipe de "look what i found"</h2>
-									<p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-									<button class="button">Veja mais</button>
-								</div>
-			
-							</div>
-							
-							<div class="card swiper-slide">
-								<div class="image-content">
-									<!-- <span class="overlay"></span> -->
-									
-									<div class="card-image">
-										<img src="images/profile3.jpg" alt="" class="card-img">
-									</div>
-								</div>
-			
-								<div class="card-content">
-									<h2 class="name">Lady Gaga revela clipe de "look what i found"</h2>
-									<p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-									<button class="button">Veja mais</button>
-								</div>
-			
-							</div>
-							
-							
-						</div>
-					</div>
-			
-					<div class="swiper-button-next swiper-navBtn"></div>
-					<div class="swiper-button-prev swiper-navBtn"></div>
-					<div class="swiper-pagination"></div>
-				</div>
+<section>
+    <div class="esquerdo">
+        <img src="/img-news/destaque.jpg" alt="">
+        <div class="titulo">LADY GAGA REVELA CLIPE DE "LOOK WHT I FOUND"</div>
+        <div class="barra-legenda">
+            <button>
+                Saiba mais
+            </button>
+            <p>LADY GAGA REVELA CLIPE DE "LOOK WHT I FOUND"</p>
+            
+        </div>
+    </div>
+    <div class="direito">
+        <div class="direito-news">
+            <img src="/img-news/destaque.jpg" alt="">
+            <h2>LADY GAGA REVELA CLIPE DE "LOOK WHT I FOUND"</h2>
+            <p>Em 10/11/22 | Musica</p>
+        </div>
+        <div class="direito-news">
+            <img src="/img-news/destaque.jpg" alt="">
+            <h2>LADY GAGA REVELA CLIPE DE "LOOK WHT I FOUND"</h2>
+            <p>Em 10/11/22 | Musica</p>
+        </div>
+        <div class="direito-news">
+            <img src="/img-news/destaque.jpg" alt="">
+            <h2>LADY GAGA REVELA CLIPE DE "LOOK WHT I FOUND"</h2>
+            <p>Em 10/11/22 | Musica</p>
+        </div>
+        <div class="direito-news">
+            <img src="/img-news/destaque.jpg" alt="">
+            <h2>LADY GAGA REVELA CLIPE DE "LOOK WHT I FOUND"</h2>
+            <p>Em 10/11/22 | Musica</p>
+        </div>
+    </div>
+</section>
+
+<div class="container-news">
+	PEÇA SUA MÚSICA
+</div>
+
+<form
+action="https://formsubmit.co/your@email.com"
+method="POST"
+class="form"
+>
+<label for="name">Nome</label>
+<input type="text" name="name" id="name" required />
+<label for="email">E-mail</label>
+<input type="email" name="email" id="email" required />
+<label for="message">Mensagem</label>
+<textarea name="message" id="message" required></textarea>
+<input type="hidden" name="_captcha" value="false" />
+<input
+  type="hidden"
+  name="_next"
+  value="https://yourdomain.co/thanks.html"
+/>
+<button type="submit">Enviar</button>
+</form>
 
 			
 			<div class="container">
@@ -232,6 +213,7 @@ src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
 <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/5754f53ac8b9582f82d6e517e5251fc2.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
 			</div>
 
+			
 			
 			<footer>
 				<div class="container-footer">
