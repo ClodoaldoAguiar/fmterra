@@ -5,9 +5,11 @@
     background-color: blueviolet;
     width: 50%;
     margin: 5px;
+    border-radius: 10px;
 }
 
 .direito-news img{
+    border-radius: 0 0 40px 0;
     width: 500px;
 }
 
@@ -25,21 +27,20 @@ p{
 }
 
 .esquerdo{
+    border-radius: 10px;
     background-color: blueviolet;
-    border: solid green;
     margin: 5px;
 }
 
 .esquerdo img{
-    width: 350px;
+    left: 0;
+    width: 750px;
 }
 
 .titulo{
-    align-items: center;
     font-size: 28px;
     border: solid rgb(226, 43, 205);
     background-color: white;
-    text-align: center;
 }
 
 section{
@@ -63,8 +64,6 @@ button{
     color: white;
     margin: 10px;
 }
-
-
 
 @media only screen and (min-width:390px) {
     section {
